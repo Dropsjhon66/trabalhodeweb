@@ -1,2 +1,0 @@
-# tecblog
-TecBlog para WD
