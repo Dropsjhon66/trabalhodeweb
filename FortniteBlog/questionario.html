@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FortBlog</title>
+    <link rel="stylesheet" type="text/css" href="css/estilo.css" />
+    <link rel="shortcut icon" href="Icone/icons8-fortnite-16 (2).png" type="image/x-icon">
+</head>
+
+<body>
+    <div id="area-cabecalho">
+        <div id="area-logo">
+            <h1>Fortnite<span class="branco">Blog</span></h1>
+        </div>
+        <div id="area-menu">
+            <a href="index.html">Início</a>
+            <a href="armas.html">Armas icônicas</a>
+            <a href="criador.html">Criadores de conteúdo</a>
+            <a href="questionario.html">Questionário</a>
+        </div>
+        <!-- <div> -->
+    </div>
+    <div id="area-principal">
+        <div id="area-postagens">
+            <!--abertura postagem-->
+            <div class="postagem">
+                <h2 style="text-align: center;">Questionário</h2>
+                <a id="topo"></a>
+                <Form onsubmit="event.preventDefault(); window.location.href='finalform.html'" onreset="event.preventDefault(); window.location.href='questionario.html'">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required><br><br>
+                    <label for="senha">Senha:</label>
+                    <input type="password" id="senha" name="senha"><br><br>
+
+                    <label>Qual o Melhor capítulo?</label>
+                    <br><br>
+                    <select id="cidade" name="cidade" required>
+                        <option value="">Selecione...</option>
+                        <option value="">Capítulo 1</option>
+                        <option value="">Capítulo 2</option>
+                        <option value="">Capítulo 3</option>
+                        <option value="">Capítulo 4</option>
+                        <option value="">Capítulo 5</option>
+                    </select><br><br>
+                    
+                    <label>Qual item veio na última temporada do fortnite?</label>
+                    <br><br>
+                    <input type="radio" value="" required>
+                    <label>Pistola Sentinela</label>
+                    <br>
+                    <input type="radio" value="">
+                    <label>Granada de onda de choque</label>
+                    <br>
+                    <input type="radio" value="">
+                    <label>SMG Hiper</label>
+                    <br>
+                    <input type="radio" value="">
+                    <label>Rifle de rajada atacante</label>
+                    <br><br><br>
+                    
+                    <label>Selecione quais fazem parte da Hero Base</label>
+                    <br><br>
+                    <input type="checkbox" value="">
+                    <label>916Gon</label>
+                    <br>
+                    <input type="checkbox" value="">
+                    <label>Night</label>
+                    <br>
+                    <input type="checkbox" value="">
+                    <label>Felipersa</label>
+                    <br>
+                    <input type="checkbox" value="">
+                    <label>Toniket</label>
+                    <br><br><br>
+                    <label for="nome">Oque você achou?</label>
+                    <input type="text" placeholder="Digite..." required>
+                    <br><br>
+                    <input type="submit" value="Enviar">
+                    <input type="reset" value="Limpar">
+                </Form>
+            </div>
+            <!--fechamento da postagem-->
+        </div>
+        <div id="area-lateral">menu lateral
+        </div>
+        <div id="rodape">Todos os direitos reservados</div>
+    </div>
+</body>
+
+</html>
