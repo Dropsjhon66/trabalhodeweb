@@ -97,3 +97,16 @@ h1 {
 ul {
     text-align: center;
 }
+
+.email-button {
+background-color: turquoise;
+color: white;
+Padding: 15px 32px;
+text-align: center;
+display: inline-block;
+font-size: 16px;
+margin: 4px 2px;
+cursor: pointer;
+border: none;
+border-radius: 5px;
+}
