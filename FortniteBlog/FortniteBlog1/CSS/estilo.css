@@ -1,0 +1,176 @@
+/*Limpar fomrataçõs padrão */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 1em;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background: #e6e6e6;
+}
+
+
+/*Layout */
+
+#area-cabecalho {
+    background-color: #4d4c4a;
+    padding: 15px;
+    text-align: center;
+}
+
+#area-logo,
+#area-menu {
+    padding: 10px;
+}
+
+#area-principal {
+    width: 920px;
+    margin: 0 auto;
+    /* auto paramargm autoática */
+}
+
+#area-postagens,
+#area-lateral {
+    background: turquoise;
+}
+
+
+#area-postagens {
+    width: 660px;
+    float: left;
+}
+
+#area-lateral {
+    width: 240px;
+    float: right;
+}
+
+.postagem {
+    padding: 20px;
+    margin-bottom: 20px;
+    background: white;
+}
+
+#rodape {
+    clear: both;
+    text-align: center;
+    padding: 15px;
+    background: #CCC;
+}
+
+#leia {
+    color: #0051ff;
+    padding: 0px;
+}
+
+
+/*Formatação do menu */
+
+a {
+    text-decoration: none;
+}
+
+a:link,
+a:visited {
+    color: #FFF;
+    padding: 8px 12px;
+}
+
+a:hover {
+    color: #4d4c4a;
+    background: #FFF;
+}
+
+
+/*Formatação em geral */
+
+h1 {
+    color: #0051ff;
+    font-size: 2.5em;
+}
+
+.branco {
+    color: white;
+}
+
+ul {
+    text-align: center;
+}
+
+.email-button {
+background-color: turquoise;
+color: white;
+Padding: 15px 32px;
+text-align: center;
+display: inline-block;
+font-size: 16px;
+margin: 4px 2px;
+cursor: pointer;
+border: none;
+border-radius: 5px;
+}
+#chat-container {
+    width: 100%;
+    max-width: 500px;
+    margin: 50px auto;
+    background: #1e1e2f;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+#chat-box {
+    height: 400px;
+    overflow-y: auto;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Adicionado para espaçamento uniforme */
+}
+
+.message {
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    max-width: 80%;
+}
+
+.bot {
+    background: #4caf50;
+    color: white;
+    align-self: flex-start;
+}
+
+.user {
+    background: #0078d7;
+    color: white;
+    align-self: flex-end;
+}
+
+#input-area {
+    display: flex;
+    padding: 10px;
+    background: #121212;
+}
+
+#input-area input {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+#input-area button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
